@@ -1,0 +1,12 @@
+records,approach,time_ms,rows_per_second
+1000,batch_1000_transaction,135.0,7406
+1000,batch_autocommit,196.6,5086
+1000,prepared_per_row,206.5,4844
+1000,statement_per_row,195.8,5108
+10000,batch_1000_transaction,385.5,25943
+10000,batch_autocommit,1720.5,5812
+10000,prepared_per_row,1734.6,5765
+10000,statement_per_row,1806.8,5535
+100000,batch_1000_transaction,2710.8,36889
+100000,batch_autocommit,16851.9,5934
+100000,prepared_per_row,20705.5,4689

@@ -1,0 +1,6 @@
+Reference measurements transcribed from Assignment 5 report (not rerun here):
+File size | one-byte reads ms | BufferedInputStream ms | Files.readAllLines ms
+1 MB | 479 | 23 | 19
+10 MB | 3459 | 186 | 23
+50 MB | 17614 | 882 | 196
+At 50 MB: 52,428,830 read calls versus 6,402 buffered calls; 1,115,507 lines.

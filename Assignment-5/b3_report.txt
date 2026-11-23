@@ -1,0 +1,4 @@
+Reference measurements from supplied Assignment 5 report (not rerun here):
+10 rows: Statement 21.85 ms; PreparedStatement 46.90 ms; batch 14.62 ms.
+100,000 rows: PreparedStatement batch (size 1,000, one transaction) 2,710.8 ms; PreparedStatement row-by-row 20,705.5 ms. Batch is about 7.6x faster in this run.
+Failure at row 500 of 1,000 (negative amount): auto-commit left 499 rows; one transaction plus rollback left 0.
