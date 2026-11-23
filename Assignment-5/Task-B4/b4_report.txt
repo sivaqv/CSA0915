@@ -1,4 +1,0 @@
-Reference migration results transcribed from supplied Assignment 5 report:
-Source: 3,106,771 bytes; lines read 50,008; migrated 50,000; rejected 8; elapsed 1,864 ms. Accounting check: migrated + rejected = lines read.
-Rejected reasons: bad register number; non-positive amount; amount above Rs 50,000 ceiling; wrong field count; blank line; validity date before 2020; duplicate pass ID; invalid date 31-03-2027.
-Final engineering decision in the report: one shared relational database with campus_id, UNIQUE constraints, indexes, transactions, backup and replication for 12 campuses issuing concurrently.
