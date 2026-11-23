@@ -1,0 +1,9 @@
+SQL injection experiment summary from supplied Assignment 5 report:
+L1 genuine login: both versions accepted vignesh/STUDENT.
+L2 wrong password: both rejected.
+L3 unknown user: both rejected.
+L4 comment out password: unsafe accepted, prepared rejected.
+L5 always true: unsafe accepted, prepared rejected.
+L6 admin' -- with any password: unsafe returned admin/ADMIN; prepared rejected.
+L7 first-row and L8 UNION crafted inputs: unsafe accepted; prepared rejected.
+Unsafe Statement concatenates raw input into SQL. PreparedStatement parses placeholders first and binds user strings as values.
